@@ -74,10 +74,8 @@
     </section>
     <section id="cnn1">
         <h1>First Image</h1>
-        
-             <div class="train">
+        <div class="train">
             <nav><a href="#mave1" style="margin-left:0px;font-size:36px; color:rgb(255, 255, 255)">Start Learning</a></nav>
-        
         </div>
     </section>
     <section id="mave1">
@@ -85,12 +83,12 @@
         <div class="filter">
             <div style="flex-direction: column;">
                 <img src="./image/asian2.jpg" alt="2nd filter of asian woman">
+                <p style="position:relative;top:-10px;font-size:16px">Skin Score: 24.32</p>
             </div>
             <div style="flex-direction: column;">
                 <img src="./image/asian1.png" alt="1st filter of asian woman">
-                <p style="top:10px;font-size:16px">Human Score:50</p>
+                <p style="position:relative;top:-10px;font-size:16px">Skin Score: 25.69</p>
             </div>
-            
         </div>
         <div style="position:relative;top:-20px">
             <nav><a href="#pool" style="margin-left:0px;font-size:24px; color:rgb(255, 255, 255)">Get Results</a></nav>
@@ -104,7 +102,16 @@
         <div>
           <h3 style="color:greenyellow;font-size:24px">Human? ✔</h3>  
           <h3 style="color:red;font-size:24px">Nonhuman? X</h3>  
-          <h3 style="font-size:24px">Addendums: Eyes and Hair</h3>  
+          <h3 style ="font-size:24px;">Raw Score: 50.01 / 40</h3>
+          <h3 style="font-size:24px">Addendums: Eyes and Hair</h3>
+          <h3 style="font-size:20px">New Scoring Threshold:</h3>
+          <div>
+            <ul>
+                <li>Skin: 46.97</li>
+                <li>Hair: 18.67</li>
+                <li>Eyes: 9.77</li>
+          </ul>  
+          </div>
         </div>
         <div>
             <nav><a href="#cnn2" style="margin-left:0px;font-size:24px; color:rgb(255, 255, 255)">Learn More</a></nav>
@@ -112,53 +119,231 @@
     </section>
     <section id="cnn2">
         <h1>Second Image</h1>
+        <div class="train">
+            <nav><a href="#mave2" style="margin-left:0px;font-size:36px; color:rgb(255, 255, 255)">Start Learning</a></nav>
+        </div>
     </section>
     <section id="mave2">
         <h1 style="font-size:60px">Filter</h1>
         <div class="filter">
-            <img src="./image/man1.png" alt="1st filter of white man">
-            <img src="./image/man2.png" alt="2nd filter of white man">
+            <div style="flex-direction: column;">
+                <img src="./image/man1.png" alt="1st filter of white man">
+                <p style="position:relative;top:-10px;font-size:14px">Skin Score: 24.97  ||  Eye Score: 9.01  ||  Hair Score: 12.41</p>
+            </div>
+            <div style="flex-direction: column;">
+                <img src="./image/man2.png" alt="2nd filter of white man">
+                <p style="position:relative;top:-10px;font-size:14px">Skin Score: 24.6  ||  Eye Score: 9.32  ||  Hair Score: 12.3</p>
+            </div>
+        </div>
+        <div style="position:relative;top:-20px">
+            <nav><a href="#pool2" style="margin-left:0px;font-size:24px; color:rgb(255, 255, 255)">Get Results</a></nav>
+        </div>
+    </section>
+    <section id="pool2">
+        <h1 style="font-size:60px">Pooling Results</h1>
+        <div>
+            <h2 style="font-size:36px">Robot-360:</h2>
+        </div>
+        <div>
+          <h3 style="color:greenyellow;font-size:24px">Human? ✔</h3>  
+          <h3 style="color:red;font-size:24px">Nonhuman? X</h3>  
+          <h3 style ="font-size:24px;">Raw Score: 92.61 / 75.41</h3>
+          <h3 style="font-size:24px">Addendum: Facial Symmetry</h3>
+          <h3 style="font-size:20px">New Scoring Threshold:</h3>
+          <div>
+            <ul>
+                <li>Skin: 47.77</li>
+                <li>Hair: 19.31</li>
+                <li>Eyes: 10.61</li>
+                <li>Symmetry: 6.78</li>
+          </ul>  
+          </div>  
+        </div>
+        <div>
+            <nav><a href="#cnn3" style="margin-left:0px;font-size:24px; color:rgb(255, 255, 255)">Learn More</a></nav>
         </div>
     </section>
     <section id="cnn3">
         <h1>Third Image</h1>
+        <div class="train">
+            <nav><a href="#mave3" style="margin-left:0px;font-size:36px; color:rgb(255, 255, 255)">Start Learning</a></nav>
+        </div>
     </section>
     <section id="mave3">
         <h1 style="font-size:60px">Filter</h1>
         <div class="filter">
-            <img src="./image/woman1.png" alt="1st filter of white woman">
-            <img src="./image/woman2.png" alt="2nd filter of white woman">
+            <div style="flex-direction: column;">
+                <img src="./image/woman1.png" alt="1st filter of white woman">
+                <p style="position:relative;top:-10px;font-size:14px">Skin Score: 24.6  ||  Eye Score: 9.32  ||  Hair Score: 12.3</p>
+                <p style="position:relative;top:-10px;font-size:14px">Symmetry Score: 5.12</p>
+            </div>
+            <div style="flex-direction: column;">
+                <img src="./image/woman2.png" alt="2nd filter of white woman">
+                <p style="position:relative;top:-10px;font-size:14px">Skin Score: 24.6  ||  Eye Score: 9.32  ||  Hair Score: 12.3</p>
+                <p style="position:relative;top:-10px;font-size:14px">Symmetry Score: 4.59</p>
+            </div>
+        </div>
+        <div style="position:relative;top: -40px;">
+                <nav><a href="#pool3" style="margin-left:0px;font-size:24px; color:rgb(255, 255, 255)">Get Results</a></nav>
+            </div>
+    </section>
+    <section id="pool3">
+        <h1 style="font-size:60px">Pooling Results</h1>
+        <div>
+            <h2 style="font-size:36px">Robot-360:</h2>
+        </div>
+        <div>
+          <h3 style="color:greenyellow;font-size:24px">Human? ✔</h3>  
+          <h3 style="color:red;font-size:24px">Nonhuman? X</h3>  
+          <h3 style ="font-size:24px;">Raw Score: 50.01 / 84.47</h3> 
+          <h3 style="font-size:20px">New Scoring Threshold:</h3>
+          <div>
+            <ul>
+                <li>Skin: 52.21</li>
+                <li>Hair: 23.85</li>
+                <li>Eyes: 16.45</li>
+                <li>Symmetry: 10.33</li>
+          </ul>  
+          </div>  
+        </div>
+        <div>
+            <nav><a href="#cnn4" style="margin-left:0px;font-size:24px; color:rgb(255, 255, 255)">Learn More</a></nav>
         </div>
     </section>
     <section id="cnn4">
         <h1>Fourth Image</h1>
+        <div class="train">
+            <nav><a href="#mave4" style="margin-left:0px;font-size:36px; color:rgb(255, 255, 255)">Start Learning</a></nav>
+        </div>
     </section>
     <section id="mave4">
         <h1 style="font-size:60px">Filter</h1>
         <div class="filter">
-            <img src="./image/steve1.png" alt="1st filter of steve">
-            <img src="./image/steve2.png" alt="2nd filter of steve">
+            <div style="flex-direction: column;">
+                <img src="./image/steve1.png" alt="1st filter of steve">
+                <p style="position:relative;top:-10px;font-size:14px">Skin Score: 14.4  ||  Eye Score: 1.32  ||  Hair Score: 16.32</p>
+                <p style="position:relative;top:-10px;font-size:14px">Symmetry Score: 14.95</p>
+            </div>
+            <div style="flex-direction: column;">
+                <img src="./image/steve2.png" alt="2nd filter of steve">
+                <p style="position:relative;top:-10px;font-size:14px">Skin Score: 20.33  ||  Eye Score: 2.05  ||  Hair Score: 15.84</p>
+                <p style="position:relative;top:-10px;font-size:14px">Symmetry Score: 15.43</p>
+            </div>
+        </div>
+        <div style="position:relative;top:-40px">
+            <nav><a href="#pool4" style="margin-left:0px;font-size:24px; color:rgb(255, 255, 255)">Get Results</a></nav>
+        </div>
+    </section>
+    <section id="pool4">
+        <h1 style="font-size:60px">Pooling Results</h1>
+        <div>
+            <h2 style="font-size:36px">Robot-360:</h2>
+        </div>
+        <div>
+          <h3 style="color:greenyellow;font-size:24px">Human? X</h3>  
+          <h3 style="color:red;font-size:24px">Nonhuman? ✔</h3>  
+          <h3 style ="font-size:24px;">Raw Score: 100.64 / 102.84</h3>
+          <h3 style="font-size:20px">New Scoring Threshold:</h3>
+          <div>
+            <ul>
+                <li>Skin: 61.59</li>
+                <li>Hair: 24.12</li>
+                <li>Eyes: 17.03</li>
+                <li>Symmetry: 18.43</li>
+          </ul>  
+          </div>
+        </div>
+        <div>
+            <nav><a href="#cnn5" style="margin-left:0px;font-size:24px; color:rgb(255, 255, 255)">Learn More</a></nav>
         </div>
     </section>
     <section id="cnn5">
         <h1>Fifth Image</h1>
+        <div class="train">
+            <nav><a href="#mave5" style="margin-left:0px;font-size:36px; color:rgb(255, 255, 255)">Start Learning</a></nav>
+        </div>
     </section>
     <section id="mave5">
         <h1 style="font-size:60px">Filter</h1>
         <div class="filter">
-            <img src="./image/thai1.png" alt="1st filter of Thai man">
-            <img src="./image/thai2.png" alt="2nd filter of Thai man">
+            <div style="flex-direction: column;">
+                <img src="./image/thai1.png" alt="1st filter of Thai man">
+                <p style="position:relative;top:-10px;font-size:14px">Skin Score: -6.98  ||  Eye Score: 18.79  ||  Hair Score: 20.31</p>
+                <p style="position:relative;top:-10px;font-size:14px">Symmetry Score: 18.34</p>
+            </div>
+            <div style="flex-direction: column;">
+                <img src="./image/thai2.png" alt="2nd filter of Thai man">
+                <p style="position:relative;top:-10px;font-size:14px">Skin Score: -7.39  ||  Eye Score: 19.02  ||  Hair Score: 21.22</p>
+                <p style="position:relative;top:-10px;font-size:14px">Symmetry Score: 18.04</p>
+            </div>
+        </div>
+        <div style="position:relative;top:-40px">
+            <nav><a href="#pool5" style="margin-left:0px;font-size:24px; color:rgb(255, 255, 255)">Get Results</a></nav>
+        </div>
+    </section>
+    <section id="pool5">
+        <h1 style="font-size:60px">Pooling Results</h1>
+        <div>
+            <h2 style="font-size:36px">Robot-360:</h2>
+        </div>
+        <div>
+          <h3 style="color:greenyellow;font-size:24px">Human? X</h3>  
+          <h3 style="color:red;font-size:24px">Nonhuman? ✔</h3>  
+          <h3 style ="font-size:24px;">Raw Score: 101.35 / 121.17</h3>
+          <h3 style="font-size:20px">New Scoring Threshold:</h3>
+          <div>
+            <ul>
+                <li>Skin: 66.59</li>
+                <li>Hair: 29.45</li>
+                <li>Eyes: 25.44</li>
+                <li>Symmetry: 18.33</li>
+          </ul>  
+          </div> 
+        </div>
+        <div>
+            <nav><a href="#cnn6" style="margin-left:0px;font-size:24px; color:rgb(255, 255, 255)">Learn More</a></nav>
         </div>
     </section>
     <section id="cnn6">
         <h1>Sixth Image</h1>
+        <div class="train">
+            <nav><a href="#mave6" style="margin-left:0px;font-size:36px; color:rgb(255, 255, 255)">Start Learning</a></nav>
+        </div>
     </section>
     <section id="mave6">
         <h1 style="font-size:60px">Filter</h1>
         <div class="filter">
-            <img src="./image/naomi1.png" alt="1st filter of Naomi Osaka">
-            <img src="./image/naomi2.png" alt="2nd filter of Naomi Osaka">
+            <div style="flex-direction: column;">
+                <img src="./image/naomi1.png" alt="1st filter of Naomi Osaka">
+                <p style="position:relative;top:-10px;font-size:14px">Skin Score: -10.4  ||  Eye Score: 13.55  ||  Hair Score: 20.12</p>
+                <p style="position:relative;top:-10px;font-size:14px">Symmetry Score: 3.2</p>
+            </div>
+            <div style="flex-direction: column;">
+                <img src="./image/naomi2.png" alt="2nd filter of Naomi Osaka">
+                <p style="position:relative;top:-10px;font-size:14px">Skin Score: -9.76  ||  Eye Score: 13.51  ||  Hair Score: 20.43</p>
+                <p style="position:relative;top:-10px;font-size:14px">Symmetry Score: 3.11</p>
+            </div>
         </div>
+        <div style="position:relative;top:-40px">
+            <nav><a href="#pool6" style="margin-left:0px;font-size:24px; color:rgb(255, 255, 255)">Get Results</a></nav>
+        </div>
+    </section>
+    <section id="pool6">
+        <h1 style="font-size:60px">Pooling Results</h1>
+        <div>
+            <h2 style="font-size:36px">Robot-360:</h2>
+        </div>
+        <div>
+          <h3 style="color:greenyellow;font-size:24px">Human? X</h3>  
+          <h3 style="color:red;font-size:24px">Nonhuman? ✔</h3>  
+          <h3 style ="font-size:24px;">Raw Score: 53.76 / 139.81</h3>
+        </div>
+        <div>
+            <nav><a href="#conclude" style="margin-left:0px;font-size:24px; color:rgb(255, 255, 255)">Learn More</a></nav>
+        </div>
+    </section>
+    <section id="conclude">
+        <h1 style="font-size: 36px;">Would you still trust your 'friend'?</h1>
     </section>
     <script src="script.js"></script>
 </body>

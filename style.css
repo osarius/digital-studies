@@ -63,6 +63,11 @@ nav a:hover, nav a.active{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
+#cnn6>h1{
+    background: linear-gradient(45deg, rgb(191, 96, 58),rgb(255, 213, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
 section{
     min-height:100vh;
     display:flex;
@@ -141,7 +146,8 @@ section{
     display:block;
     width:50%;
 }
-.train nav{
+
+.train{
     height: 22px;
 }
 #intro{
@@ -211,7 +217,7 @@ img{
 #mave6{
     flex-direction: column;
 }
-#pool{
+#pool,#pool2,#pool3,#pool4,#pool5,#pool6{
     flex-direction: column;
     background-color: #333844;
 }
@@ -219,4 +225,8 @@ img{
     display: flex;
     flex-direction:row;
     column-gap: 30px;
+}
+li{
+    font-size: 16px;
+    margin-left:30px;
 }
